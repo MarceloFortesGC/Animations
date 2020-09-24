@@ -1,4 +1,4 @@
-# SCROLL ANIMATIONS by Bruno Dias 
+# SCROLL ANIMATIONS
 
 ### Como usar?
 - Adicione no elemento que vc quer animar a classe especifica
