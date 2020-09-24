@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="div1" style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(0, 89, 255, 0.623);'>
+        <div>
+            <strong>Welcome! have some fun :)</strong>
+        </div>
+    </div>
+
+    <div id="div2" style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(0, 255, 128, 0.623);'>
+        <div class="animation-above" speed="1s">
+            Coming from above
+        </div>
+    </div>
+
+    <div id="div3"  style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(157, 255, 0, 0.575);'>
+        <div class="animation-below" speed="1s">
+            Coming from below
+        </div>
+    </div>
+
+    <div id="div4" style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(255, 166, 0, 0.473);'>
+        <div class="animation-left" speed="1s">
+            Coming from the left
+        </div>
+    </div>
+
+    <div id="div5"  style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(140, 0, 255, 0.527);'>
+        <div class="animation-right" speed="1s">
+            Coming from the right
+        </div>
+    </div>
+
+    <div id="div6" style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(255, 0, 149, 0.13);'>
+        <div class="animation-origin" speed="1s">
+            Coming from the origin
+        </div>
+    </div>
+
+    <div id="div7" style='width: 100vw; height: 100vh; margin-top: 0;margin-bottom: 0 ;background-color: rgba(44, 17, 17, 0.274);'>
+        <div class="animation-outside" speed="1s">
+            Coming from the outside
+        </div>
+    </div>
+
+    <button onclick="SlideTo('2')" style="bottom: 90%;">above</button>
+    <button onclick="SlideTo('3')" style="bottom: 80%;">below</button>
+    <button onclick="SlideTo('4')" style="bottom: 70%;">left</button>
+    <button onclick="SlideTo('5')" style="bottom: 60%;">right</button>
+    <button onclick="SlideTo('6')" style="bottom: 50%;">origin</button>
+    <button onclick="SlideTo('7')" style="bottom: 40%;">inside</button>
+    <button onclick="SlideTo('1')" style="bottom: 5%;">Back to top</button>
+    
+    
+    <!--Scripts-->
+    <script src="index.js"></script>
+</body>
+
+</html>
